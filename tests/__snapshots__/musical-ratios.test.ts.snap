@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`musical-ratios Has Correct API 1`] = `
+Array [
+  "MusicalRatios",
+  "ratioToPower",
+]
+`;
