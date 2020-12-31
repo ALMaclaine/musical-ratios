@@ -3,6 +3,8 @@
 exports[`musical-ratios Has Correct API 1`] = `
 Array [
   "MusicalRatios",
+  "intervalToRatio",
+  "ratioToInterval",
   "ratioToPower",
 ]
 `;

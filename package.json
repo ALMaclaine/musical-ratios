@@ -1,6 +1,6 @@
 {
   "name": "musical-ratios",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of musical ratios for use in music applications or building modular scale responsive systems.",
   "main": "dist/index.bundle.js",
   "module": "dist/index.js",
