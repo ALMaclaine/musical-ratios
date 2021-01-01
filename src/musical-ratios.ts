@@ -16,14 +16,14 @@ export enum MusicalRatios {
   Octave = 2.000
 }
 
-export function intervalToRatio(interval) {
+export function intervalToRatio(interval: string | MusicalRatios): number {
   return MusicalRatios[interval];
 }
 
-export function ratioToInterval(ratio) {
+export function ratioToInterval(ratio: number): string | MusicalRatios {
   return MusicalRatios[ratio];
 }
 
-export function ratioToPower(ratio: MusicalRatios | number, power: number) {
+export function ratioToPower(ratio: MusicalRatios | number, power: number): number {
   return Math.pow(ratio, power);
 }
