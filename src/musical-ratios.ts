@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 export enum MusicalRatios {
   Unison = 1.00,
   MinorSecond = 1.067,
@@ -17,13 +18,14 @@ export enum MusicalRatios {
 }
 
 export function intervalToRatio(interval: string | MusicalRatios): number {
-  return MusicalRatios[interval];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return (MusicalRatios as { [key: string]: any })[interval];
 }
 
 export function ratioToInterval(ratio: number): string | MusicalRatios {
-  return MusicalRatios[ratio];
+    return MusicalRatios[ratio];
 }
 
 export function ratioToPower(ratio: MusicalRatios | number, power: number): number {
-  return Math.pow(ratio, power);
+    return Math.pow(ratio, power);
 }
