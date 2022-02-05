@@ -1,6 +1,6 @@
 {
   "name": "musical-ratios",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A collection of musical ratios for use in music applications or building modular scale responsive systems.",
   "main": "dist/index.bundle.js",
   "module": "dist/index.js",
@@ -38,10 +38,10 @@
   },
   "homepage": "https://github.com/ALMaclaine/musical-ratios",
   "devDependencies": {
-    "@almaclaine/eslint-config": "^0.0.18",
-    "@almaclaine/jest-config": "^0.0.1",
+    "@almaclaine/eslint-config": "^0.0.20",
+    "@almaclaine/jest-config": "^0.0.3",
     "@almaclaine/npm-scripts": "^0.0.15",
-    "@almaclaine/rollup-config": "^0.0.14",
-    "@almaclaine/ts-config": "^0.2.10"
+    "@almaclaine/rollup-config": "^0.0.17",
+    "@almaclaine/ts-config": "^0.2.12"
   }
 }
